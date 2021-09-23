@@ -1,9 +1,11 @@
 #include "monty.h"
+
 /**
  * _add - adds the top two elements in stack
  * @h: top node
  * @line_number: node number
  */
+
 void _add(stack_t **h, unsigned int line_number)
 {
 	if (*h == NULL || (*h)->next == NULL)

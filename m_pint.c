@@ -5,7 +5,7 @@
  * @h: head of list
  * @line_number: bytecode line number
  */
- 
+
 void pint(stack_t **h, unsigned int line_number)
 {
 	if (!h || !*h)
