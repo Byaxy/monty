@@ -1,9 +1,11 @@
 #include "monty.h"
+
 /**
  * _mod - mod second node from top node
  * @h: top of list
  * @line_number: line of command
  */
+
 void _mod(stack_t **h, unsigned int line_number)
 {
 	if (h == NULL || *h == NULL)
